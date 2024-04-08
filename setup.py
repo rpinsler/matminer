@@ -55,7 +55,7 @@ if __name__ == "__main__":
         zip_safe=False,
         install_requires=[
             "numpy >= 1.23, < 2",
-            "requests ~= 2.31",
+            "requests",
             "pandas >= 1.5, < 3",
             "tqdm ~= 4.66",
             "pymongo ~= 4.5",
